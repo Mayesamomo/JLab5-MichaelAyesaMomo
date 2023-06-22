@@ -1,0 +1,10 @@
+extends layout
+
+block main-content
+  h1 Libraries
+  ul
+    each branch in branches
+      - let branchId = branch.getAttribute("id");
+      - let branchName = branch.querySelector("name").textContent;
+      li
+        a(href=`/branch/${branchId}`) #{branchName}

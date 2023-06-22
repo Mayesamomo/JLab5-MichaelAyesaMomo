@@ -1,0 +1,12 @@
+extends layout
+
+block main-content
+  h1 Library Branch
+  if branch
+    div
+      h2= branch.querySelector("name").textContent
+      p Address: #{branch.querySelector("address").textContent}
+      p Phone Number: #{branch.querySelector("phoneNumber").textContent}
+      p Description: #{branch.querySelector("description").textContent}
+  else
+    p Library branch not found.

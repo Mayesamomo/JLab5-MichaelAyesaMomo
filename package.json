@@ -1,0 +1,34 @@
+{
+  "name": "jlab5-michaelayesamomo",
+  "version": "1.0.0",
+  "description": "xml api format",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayesamomo/JLab5-MichaelAyesaMomo.git"
+  },
+  "keywords": [
+    "xml",
+    "api",
+    "toronto",
+    "library"
+  ],
+  "author": "Michael Ayesa Momo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayesamomo/JLab5-MichaelAyesaMomo/issues"
+  },
+  "homepage": "https://github.com/Mayesamomo/JLab5-MichaelAyesaMomo#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsdom": "^22.1.0",
+    "pug": "^3.0.2",
+    "xmldom": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
